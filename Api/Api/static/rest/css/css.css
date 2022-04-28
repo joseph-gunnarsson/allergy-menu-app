@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#qrcode {
+   width: 600px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif;  font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+p { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; text-align: justify; text-justify: inter-word; }
+
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body{
+  background: #e9eaea;
+  font-family: arial;
+  user-select: none;
+}
+
+.container{
+  width: 450px;
+  margin: 30px auto;
+}
+
+.error{
+  background: red;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.signup,
+.login{
+  width: 50%;
+  background: #fff;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.leftside,.rightside{
+  height: 100vh;
+  width: 100%;
+}
+.leftside{
+  background: white;
+}
+.rightside{ 
+  background: #FBC711;
+}
+
+
+
+.signup-form,
+.login-form{
+  background: #fff;
+  padding: 40px;
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+.input,.btn3{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  color: #3e3e40;
+  font-size: 14px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.input:focus{
+  border: 2px solid #34b3a0;
+}
+
+#login,.btn{
+  width: 100%;
+  background: #FBC711;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-color: #FFF;
+}
+  
+ .btn2 {
+  background-color: #FBC711; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.btn3,.btn5 {
+  background-color: #FBC711; 
+  border: none;
+  color: white;
+  height: 100%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.btn4{
+  background-color: #FBC711; 
+  border: none;
+  color: white;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid black;
+}
+.btn3:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.btn5:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.btn4:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.smallbtn{
+  width: 100%;
+  background: #FBC711;
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-color: #FFF;
+}
+
+#list{
+  list-style-type:none;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+span a{
+  text-decoration: none;
+  color: #000;
+}
+
+.allergnsbox{
+  background: white;
+  width: 450px;
+  height: 200px;
+  text-align: center;
+  overflow: scroll;
+  font-weight: bold;
+overflow-x: hidden;
+ font-size: 20px
+ padding-bottom: 25px;
+}
+
+
+
+
